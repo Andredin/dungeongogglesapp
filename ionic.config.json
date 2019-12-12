@@ -1,0 +1,7 @@
+{
+  "name": "dungeongogglesapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
