@@ -22,8 +22,6 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from "react-router-dom";
 import { Grid } from '../classes/Grid';
 import { PlayerMap } from '../interfaces/PlayerMap';
-import ImgCanvas from './ImgCanvas';
-import GridCanvas from './GridCanvas';
 
 type PlayerCanvasProps = {
     playerMap: PlayerMap;
