@@ -48,6 +48,10 @@ const HomeTab = () => {
                     <IonIcon slot="start" color="medium" icon={book} />
                     <IonLabel>DnD Beyond</IonLabel>
                 </IonItem>
+                <IonItem routerLink="/player/100">
+                    <IonIcon slot="start" color="medium" icon={book} />
+                    <IonLabel>Test</IonLabel>
+                </IonItem>
             </IonList>
         </IonContent>
     </IonPage>

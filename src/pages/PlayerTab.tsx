@@ -38,7 +38,7 @@ const PlayerTab = () => {
             playerId: playerId,
             dmId: '10',
             url: 'https://i.pinimg.com/originals/f3/36/d6/f336d62f3e5d87ffc6347e4563b0a1a1.jpg',
-            grid: new Grid([[0]])
+            grid: new Grid([[1, 0, 1, 0, 1], [0, 1, 0, 1, 0], [1, 0, 1, 0, 1], [0, 1, 0, 1, 0], [1, 0, 1, 0, 1]])
         }
         setPlayerMap(playerMap)
     }, [playerId])
@@ -50,7 +50,7 @@ const PlayerTab = () => {
                     <IonTitle>Dungeon Goggles</IonTitle>
                 </IonToolbar>
             </IonHeader>
-            <IonContent>
+            <IonContent scrollX={false} scrollY={false}>
                 <IonLoading isOpen={loading} message={'Loading...'} />
                 {playerMap != undefined? <PlayerCanvas playerMap={playerMap}/> : ''}
             </IonContent>
