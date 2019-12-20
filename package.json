@@ -16,6 +16,7 @@
     "@types/react-dom": "^16.9.1",
     "@types/react-router": "^5.1.1",
     "@types/react-router-dom": "^5.1.0",
+    "firebase": "^7.6.1",
     "ionicons": "^4.6.3",
     "konva": "^4.0.18",
     "react": "^16.10.2",
